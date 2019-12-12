@@ -1,0 +1,5 @@
+The api can be initialised by running the index.js file using the command node index.js. The program will listen to port 4000 on the local host.
+you can get the list of stores typing localhost:4000/api/stores into the browser. A store can be added by posting raw json text to localhost:4000/api/stores.
+An store can be deleted by sending a delete request to localhost:4000/api/stores/:storeid. the id can be obtained by from issuing a get command to localhost:4000/api/stores.
+a stores info can be altered by sending raw json text to localhost:4000/api/stores/:storeid. The list of dependancies is located in the package.json file and can be installed
+using the command npm install in the terminal.
